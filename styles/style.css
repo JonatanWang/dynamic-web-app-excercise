@@ -3,7 +3,7 @@ body{
     color: #828282;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 22px;
-    background: url(images/shared/header-img.png) no-repeat 50% 2%,url(images/shared/body.png) repeat 0 0;
+    background: url(images/header-img.png) no-repeat 50% 2%,url(images/body.png) repeat 0 0;
     width: 980px;
     margin: 2em auto;
     padding: 4em;
