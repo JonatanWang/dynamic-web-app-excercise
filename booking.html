@@ -1,1 +1,90 @@
-<h1>Booking</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <title>Café Choco-Latte</title>
+    </head>
+    <body>
+        <article>
+            <header>
+                <h1>Café Choco-Latte</h1>
+                <h2>Fantastiskt kaffe & läckra bakverk</h2>
+                <p>Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet när du kliver in genom dörren. Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.  Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna. 
+                </p>
+            </header>
+            <nav>
+                <p>
+                    <a href="index.html">Hem</a> | 
+                    <a href="chocolate-tasting.html">Chokladprovning</a> | 
+                    <a href="booking.html">Boka</a> | 
+                    <a href="about-choco-tree.html">Om Kakoträdet</a>
+                </p>
+                <hr>
+            </nav>
+           
+            <h3>Boka Chokladprovning</h3>
+            <form>
+                <label for="date">Välj datum:</label><br>
+
+                <input type="radio" id="april-30" name="date" value="april-30">
+                <label for="april-30">30 april</label><br>
+
+                <input type="radio" id="may-2" name="date" value="may-2">
+                <label for="may-2">2 maj</label><br>
+
+                <input type="radio" id="may-7" name="date" value="may-7">
+                <label for="may-7">7 maj</label><br>
+
+                <input type="radio" id="may-9" name="date" value="may-9">
+                <label for="may-9">9 maj</label><br>
+
+                <input type="radio" id="may-14" name="date" value="may-14">
+                <label for="may-14">14 maj</label><br>
+                
+                <input type="radio" id="may-16" name="date" value="may-16">
+                <label for="may-16">16 maj</label><br><br>
+
+                <label for="persons">Välj antal personer:</label><br>
+                <select name="persons" id="persons">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select><br><br>
+
+                <label for="guest-information">Fyll i dina uppgifter:</label><br>
+                <label for="name">Name (4 to 8 characters):</label>
+                <input type="text" id="name" name="name" required minlength="4" maxlength="10" size="10"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required size="20"><br>
+                <label for="phone">Mobilnummer (Format: 070-123-4567):</label>
+                <input type="tel" id="phone" name="phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required size="10"><br>
+                <label for="message">Meddelande:</label>
+                <textarea id="message" name="message" rows="2" cols="20"></textarea><br><br>
+
+                <input type="submit" value="Boka">
+            </form>
+            <footer>
+                <hr>
+                <nav>
+                    <p>
+                        <a href="https://www.uu.se/om-webbplatsen">Terms of Use</a> |
+                        <a href="https://www.uu.se/om-uu/dataskyddspolicy/">Privacy Policy</a>
+                    </p>
+                </nav>
+                <small>Copyright &copy; 2014 Tutorial Republic</small>
+            </footer>
+        </article>
+    </body>
+</html>
